@@ -1,0 +1,299 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "MySDK",
+    "printedName": "MySDK",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MySdk",
+        "printedName": "MySdk",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(apiKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5MySDK0A3SdkP9configure6apiKeyySS_tF",
+            "mangledName": "$s5MySDK0A3SdkP9configure6apiKeyySS_tF",
+            "moduleName": "MySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : MySDK.MySdk>",
+            "sugared_genericSig": "<Self where Self : MySDK.MySdk>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "greet",
+            "printedName": "greet(name:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5MySDK0A3SdkP5greet4nameS2S_tF",
+            "mangledName": "$s5MySDK0A3SdkP5greet4nameS2S_tF",
+            "moduleName": "MySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : MySDK.MySdk>",
+            "sugared_genericSig": "<Self where Self : MySDK.MySdk>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "reverse",
+            "printedName": "reverse(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5MySDK0A3SdkP7reverseyS2SF",
+            "mangledName": "$s5MySDK0A3SdkP7reverseyS2SF",
+            "moduleName": "MySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : MySDK.MySdk>",
+            "sugared_genericSig": "<Self where Self : MySDK.MySdk>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "generateID",
+            "printedName": "generateID()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5MySDK0A3SdkP10generateIDSSyF",
+            "mangledName": "$s5MySDK0A3SdkP10generateIDSSyF",
+            "moduleName": "MySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : MySDK.MySdk>",
+            "sugared_genericSig": "<Self where Self : MySDK.MySdk>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:5MySDK0A3SdkP",
+        "mangledName": "$s5MySDK0A3SdkP",
+        "moduleName": "MySDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MySDKManager",
+        "printedName": "MySDKManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MySDKManager",
+                "printedName": "MySDK.MySDKManager",
+                "usr": "s:5MySDK0A10SDKManagerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5MySDK0A10SDKManagerC6sharedACvpZ",
+            "mangledName": "$s5MySDK0A10SDKManagerC6sharedACvpZ",
+            "moduleName": "MySDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MySDKManager",
+                    "printedName": "MySDK.MySDKManager",
+                    "usr": "s:5MySDK0A10SDKManagerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5MySDK0A10SDKManagerC6sharedACvgZ",
+                "mangledName": "$s5MySDK0A10SDKManagerC6sharedACvgZ",
+                "moduleName": "MySDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mySDK",
+            "printedName": "mySDK",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MySdk",
+                "printedName": "any MySDK.MySdk",
+                "usr": "s:5MySDK0A3SdkP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5MySDK0A10SDKManagerC02myB0AA0A3Sdk_pvpZ",
+            "mangledName": "$s5MySDK0A10SDKManagerC02myB0AA0A3Sdk_pvpZ",
+            "moduleName": "MySDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MySdk",
+                    "printedName": "any MySDK.MySdk",
+                    "usr": "s:5MySDK0A3SdkP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5MySDK0A10SDKManagerC02myB0AA0A3Sdk_pvgZ",
+                "mangledName": "$s5MySDK0A10SDKManagerC02myB0AA0A3Sdk_pvgZ",
+                "moduleName": "MySDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:5MySDK0A10SDKManagerC",
+        "mangledName": "$s5MySDK0A10SDKManagerC",
+        "moduleName": "MySDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
