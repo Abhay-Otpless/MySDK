@@ -16,7 +16,7 @@ This is only a test SDK.
   s.source           = { :git => "https://github.com/Abhay-Otpless/MySDK.git", :tag => s.version.to_s }
 
   # Point to your prebuilt XCFramework instead of source files
-  s.vendored_frameworks = "MySDK/**/*"
+  s.source_files = "MySDK/**/*"
 
   # Optional, to ensure CocoaPods copies resources if needed
   s.requires_arc = true
