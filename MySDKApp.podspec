@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = "MySDK"
+  s.name             = "MySDKApp"
   s.version          = "1.0.0"
   s.summary          = "Test MySDK"
   s.description      = <<-DESC
